@@ -4,6 +4,7 @@
     <!--  BOOTSTRAP 4.5  -->
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" type= "text/css" href="style.css">
+    <script src="mainjs.js"></script>
     <title>Homepage</title>
     <meta charset="UTF-8">
 </head>
@@ -36,7 +37,24 @@
     <div class="container">
         <div class="row">
             <!--Main menu-->
-            
+                <!-- Search bar and stuff -->
+                <div class="col">
+                    <form class="mx-2 my d-inline">
+                        <div class="input-group">
+                            <button type="button" class="btn btn-primary" onclick="openNav()">Primary</button>
+                            <input type="text" class="form-control" placeholder="">
+                            <button class="btn btn-outline-primary" type="button">Search</button>
+                         </div>
+                    </form>
+                </div>
+                <!-- Sidebar navigation -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                  </div>
                 <!-- First Row -->
                 <div class="row">
                     <div class="col-lg col-md-6 mb-4">
