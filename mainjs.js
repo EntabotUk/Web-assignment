@@ -4,6 +4,6 @@ function openNav() {
   }
   
   /* Close category bar to 0 */
-  function closeNav() {
+function closeNav() {
     document.getElementById("Sidenav").style.width = "0";
-  }
+}
