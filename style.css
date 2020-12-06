@@ -1,3 +1,28 @@
+/*Header */
+.navbar {
+   background-color: #484848;
+ }
+.navbar .navbar-nav .nav-link { 
+  color: #fff;
+  font-size: 20px;
+  
+ }
+.navbar .navbar-nav .nav-link:hover { 
+  color: #fbc531; 
+}
+.navbar .navbar-nav .active > .nav-link { 
+  color: #fbc531; 
+}
+
+footer a.text-light:hover { 
+  color: #fed136!important; 
+  text-decoration: none; 
+}
+footer .cizgi { 
+  border-right: 1px solid #535e67;
+}
+@media (max-width: 992px) { footer .cizgi { border-right: none; } }
+/*end header */
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -11,7 +36,7 @@
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
-  
+
   /* The navigation menu links */
   .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -21,12 +46,12 @@
     display: block;
     transition: 0.3s;
   }
-  
+
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: #f1f1f1;
   }
-  
+
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
     position: absolute;
@@ -35,13 +60,13 @@
     font-size: 36px;
     margin-left: 50px;
   }
-  
+
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
     transition: margin-left .5s;
     padding: 20px;
   }
-  
+
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -60,100 +85,100 @@
   text-decoration: none;
 }
 footer .main-footer{
-  padding: 20px 0;	
+  padding: 20px 0;
   background: #252525;
 }
-footer ul{	
+footer ul{
 padding-left: 0;	list-style: none;
 }
 
 /* Copy Right Footer */
-.footer-copyright {	
-  background: #222;	
+.footer-copyright {
+  background: #222;
   padding: 5px 0;
 }
-.footer-copyright .logo {    
+.footer-copyright .logo {
   display: inherit;
 }
-.footer-copyright nav {    
-  float: right;   
+.footer-copyright nav {
+  float: right;
   margin-top: 5px;
 }
-.footer-copyright nav ul {	
-  list-style: none;	margin: 0;	
+.footer-copyright nav ul {
+  list-style: none;	margin: 0;
   padding: 0;
 }
 .footer-copyright nav ul li {
-  border-left: 1px solid #505050;	
-  display: inline-block;	
-  line-height: 12px;	
+  border-left: 1px solid #505050;
+  display: inline-block;
+  line-height: 12px;
   margin: 0;
 	padding: 0 8px;
 }
-.footer-copyright nav ul li a{	
+.footer-copyright nav ul li a{
   color: #969696;
 }
-.footer-copyright nav ul li:first-child {	
-  border: medium none;	
+.footer-copyright nav ul li:first-child {
+  border: medium none;
   padding-left: 0;
 }
-.footer-copyright p {	
-  color: #969696;	
+.footer-copyright p {
+  color: #969696;
   margin: 2px 0 0;
 }
 
 /* Footer Top */
-.footer-top{	
+.footer-top{
   background: #252525;
-  padding-bottom: 30px;	
-  margin-bottom: 30px;	
+  padding-bottom: 30px;
+  margin-bottom: 30px;
   border-bottom: 3px solid #222;
 }
 
 /* Footer transparent */
-footer.transparent .footer-top, footer.transparent .main-footer{	
+footer.transparent .footer-top, footer.transparent .main-footer{
   background: transparent;
 }
-footer.transparent .footer-copyright{	
+footer.transparent .footer-copyright{
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;
 }
 
 /* Footer light */
-footer.light .footer-top{	
+footer.light .footer-top{
   background: #f9f9f9;
 }
-footer.light .main-footer{	
+footer.light .main-footer{
   background: #f9f9f9;
 }
-footer.light .footer-copyright{	
+footer.light .footer-copyright{
   background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;
 }
 
 /* Footer 4 */
-.footer- .logo {   
+.footer- .logo {
   display: inline-block;
 }
 
 /* Widgets */
-.widget{	
+.widget{
   padding: 20px;	margin-bottom: 40px;
 }
-.widget.widget-last{	
+.widget.widget-last{
   margin-bottom: 0px;
 }
-.widget.no-box{	
-  padding: 0;	
-  background-color: transparent;	
+.widget.no-box{
+  padding: 0;
+  background-color: transparent;
   margin-bottom: 40px;
-  box-shadow: none; 
+  box-shadow: none;
   }
-.widget.subscribe p{	
+.widget.subscribe p{
   margin-bottom: 18px;
 }
-.widget li a{	
+.widget li a{
   color: #ff8d1e;
 }
-.widget li a:hover{	
+.widget li a:hover{
   color: #4b92dc;
 }
 .widget-title {
@@ -161,7 +186,7 @@ footer.light .footer-copyright{
 }
 .widget-title span {
   background: #839FAD none repeat scroll 0 0;
-  display: block; 
+  display: block;
   height: 1px;
   margin-top: 25px;
   position: relative;
@@ -169,7 +194,7 @@ footer.light .footer-copyright{
 .widget-title span::after {
   background: inherit;
   content: "";
-  height: inherit;   
+  height: inherit;
   position: absolute;
   top: -4px;width: 50%;
   }
@@ -178,17 +203,17 @@ footer.light .footer-copyright{
   margin-right:auto;
   left: 0;
   right: 0;}
-.widget .badge{	
-  float: right;	
+.widget .badge{
+  float: right;
   background: #7f7f7f;}
 
 .widget-title h1,h2,h3,h4,h5,h6,p{
   color:white;
 }
 
-ul.social-footer2 {	
+ul.social-footer2 {
   margin: 0;
-  padding: 0;	
+  padding: 0;
   width: auto;
 }
 ul.social-footer2 li {
@@ -199,12 +224,12 @@ ul.social-footer2 li a:hover {
   background-color:#ff8d1e;
 }
 ul.social-footer2 li a {
-  display: block;	
+  display: block;
   height:30px;
   width: 30px;
   text-align: center;}
 .btn{
-  background-color: #ff8d1e; 
+  background-color: #ff8d1e;
   color:#fff;
 }
 .btn:hover, .btn:focus, .btn.active {
