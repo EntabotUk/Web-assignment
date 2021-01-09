@@ -2,6 +2,7 @@
 <html>
 <head>
     <!--  BOOTSTRAP 4.5  -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script> 
     <link rel="stylesheet" href="bootstrap.min.css">
      <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type= "text/css" href="style.css">
@@ -16,35 +17,35 @@
     <!-- Not using bootstrap for now. For edits, check style.css -->
     <div id="Sidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">First item</a>
+        <a href="#">sticker</a>
         <a href="#">Second item</a>
         <a href="#">Third item</a>
         <a href="#">Fourth item</a>
     </div>
     <!--  Navbar  -->
-    <nav class="navbar navbar-expand-lg">
-		<div class="container">
-			<img src="assets/logo.png" alt="logo">
-			<div class="collapse navbar-collapse" id="nvbCollapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item pl-1">
-						<a class="nav-link" href="login.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Log in </a>
-					</li>
-					<li class="nav-item pl-1">
-						<a class="nav-link" href="signUp.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign Up </a>
-					</li>
-					<li class="nav-item pl-1">
-						<a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart </a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <img src="assets/logo-removebg-preview.png" width =190px height=190px alt="logo">
+        <div class="collapse navbar-collapse" id="nvbCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item pl-1">
+                    <a class="nav-link" href="login.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Log in </a>
+                </li>
+                <li class="nav-item pl-1">
+                    <a class="nav-link" href="signUp.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign Up </a>
+                </li>
+                <li class="nav-item pl-1">
+                    <a class="nav-link" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <!--  Jumbotron  -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Whatever bullshit we put is here</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Welcome to Our Website</h1>
+          <p class="lead" style = "color:black">Our spcial promotion are here</p>
         </div>
     </div>
     <!--Main Content-->
@@ -65,39 +66,39 @@
                 </div>
                 <!-- First Row -->
                 <h4 class="mb-4 miniCat">
-                    <a href="#">First row</a>
+                    <a href="#">Sticker</a>
                 </h4>
                 <div class="row">
                     <div class="col-lg col-md-6 mb-4 productCard">
                         <div class="h-100">
-                          <a href="productPage.html"><img class="card-img-top" src="https://picsum.photos/seed/1/700/700" alt=""></a>
+                          <a href="productPage.html"><img class="card-img-top" src="sticker_images/santa1.jpg" alt=""></a>
                           <div class="text-center">
                             <h4>
-                              <a href="#">Item One</a>
+                              <a href="productPage.html">Santa Claus</a>
                             </h4>
-                            <h5>$24.99</h5>
+                            <h5 style = "color: black">$2.50</h5>
                           </div>
                         </div>
                     </div>
                     <div class="col-lg col-md-6 mb-4 productCard">
                         <div class="h-100">
-                          <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/2/700/700" alt=""></a>
+                          <a href="sticker_AM.html"><img class="card-img-top" src="sticker_images/sticker_AM1.jpeg" alt=""></a>
                           <div class="text-center">
                             <h4>
-                              <a href="#">Item Two</a>
+                              <a href="sticker_AM.html">Among Us</a>
                             </h4>
-                            <h5>$24.99</h5>
+                            <h5 style = "color: black">$2.50</h5>
                           </div>
                         </div>
                     </div>
                     <div class="col-lg col-md-6 mb-4 productCard">
                             <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/3/700/700" alt=""></a>
+                            <a href="space.html"><img class="card-img-top" src="sticker_images/space1.jpg" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Three</a>
+                                <a href="space.html">Space</a>
                                 </h4>
-                                <h5>$24.99</h5>
+                                <h5 style = "color: black">$2.50</h5>
 
                             </div>
                         </div>
@@ -105,26 +106,14 @@
 
                     <div class="col-lg col-md-6 mb-4 productCard">
                         <div class="h-100">
-                        <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/4/700/700" alt=""></a>
+                        <a href="nba.html"><img class="card-img-top" src="sticker_images/nba1.jpg" alt=""></a>
                         <div class="text-center">
                             <h4 >
-                            <a href="#">Item Four</a>
+                            <a href="nba.html">NBA Basketball</a>
                             </h4>
-                            <h5>$24.99</h5>
+                            <h5 style = "color: black">$2.50</h5>
 
                         </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 mb-4 productCard">
-                        <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/5/700/700" alt=""></a>
-                            <div class="text-center">
-                                <h4>
-                                <a href="#">Item Five</a>
-                                </h4>
-                                <h5>$24.99</h5>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -138,7 +127,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/6/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Six</a>
+                                <a href="#">Item 5</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -150,7 +139,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/7/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Seven</a>
+                                <a href="#">Item 6</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -163,7 +152,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/8/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Eight</a>
+                                <a href="#">Item 7</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -176,19 +165,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/9/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Nine</a>
-                                </h4>
-                                <h5>$24.99</h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-6 mb-4 productCard">
-                        <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/10/700/700" alt=""></a>
-                            <div class="text-center">
-                                <h4 >
-                                <a href="#">Item Ten</a>
+                                <a href="#">Item 8</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -207,7 +184,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/11/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Eleven</a>
+                                <a href="#">Item 9</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -219,7 +196,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/12/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Twelve</a>
+                                <a href="#">Item 10</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -232,7 +209,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/13/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Thirteen</a>
+                                <a href="#">Item 11</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -245,19 +222,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/14/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Fourten</a>
-                                </h4>
-                                <h5>$24.99</h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-6 mb-4 productCard">
-                        <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/15/700/700" alt=""></a>
-                            <div class="text-center">
-                                <h4 >
-                                <a href="#">Item Fifteen</a>
+                                <a href="#">Item 12</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -275,7 +240,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/16/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Sixteen</a>
+                                <a href="#">Item 13</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -287,7 +252,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/17/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Seventeen</a>
+                                <a href="#">Item 14</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -300,7 +265,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/18/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Eightteen</a>
+                                <a href="#">Item 15</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
@@ -313,19 +278,7 @@
                             <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/19/700/700" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item Nineteen</a>
-                                </h4>
-                                <h5>$24.99</h5>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg col-md-6 mb-4 productCard">
-                        <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/20/700/700" alt=""></a>
-                            <div class="text-center">
-                                <h4 >
-                                <a href="#">Item Twenty</a>
+                                <a href="#">Item 16</a>
                                 </h4>
                                 <h5>$24.99</h5>
 
