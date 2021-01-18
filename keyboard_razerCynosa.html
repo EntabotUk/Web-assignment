@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card/Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="productPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class=logo>
+          <img src="assets/logo-removebg-preview.png" alt="logo">
+        </div>
+          <div class="collapse navbar-collapse" id="nvbCollapse">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item pl-1">
+                      <a class="nav-link" href="login.html"><i class="fas fa-user-circle" aria-hidden="true"></i> Log in </a>
+                  </li>
+                  <li class="nav-item pl-1">
+                      <a class="nav-link" href="signUp.html"><i class="fas fa-sign-in-alt" aria-hidden="true"></i> Sign Up </a>
+                  </li>
+                  <li class="nav-item pl-1">
+                      <a class="nav-link" href="#"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Cart </a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "keyborad_images/razer5.jpg" alt = "keyboard image">
+              <img src = "keyborad_images/razer6.jpg" alt = "keyboard image">
+              <img src = "keyborad_images/razer7.jpg" alt = "keyboard image">
+              <img src = "keyborad_images/razer8.jpg" alt = "keyboard image">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "keyborad_images/razer5.jpg" alt = "keyboard image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "keyborad_images/razer6.jpg" alt = "keyboard image">
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "keyborad_images/razer7.jpg" alt = "keyboard image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "keyborad_images/razer8.jpg" alt = "keyboard image">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class = "product-content">
+          <h2 class = "product-title">Razer Cynosa V2</h2>
+          <a href = "#" class = "product-link">visit BlueCase store</a>
+          <div class = "product-rating">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star-half-alt"></i>
+            <span>4.7(21)</span>
+          </div>
+
+          <div class = "product-price">
+            <p class = "last-price" style = "color:black;">Old Price: <span>$69.99</span></p>
+            <p class = "new-price" style = "color:black;">New Price: <span>$59.99</span></p>
+          </div>
+
+          <div class = "product-detail">
+            <h2>about this item: </h2>
+            <p>Razer may have its share of pricey products, but it’s also got a knack for making quality budget-friendly 
+              devices. And, if there’s anything the Razer Cynosa V2 proves, it’s that you don’t have to spend an obscene 
+              amount of money on peripherals to get the best. Among the best gaming keyboards we’ve played on this year, 
+              this one’s the best in its class, improving on its predecessor’s design while adding more functionality, 
+              solid key customizability and a brand-new set of media keys. </p>
+            <ul>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>keyboard</span></li>
+              <li>Model Name: <span>Razer Cynosa V2 KEYBOARD</span></li> 
+              <li>Blacklight: <span>RGB</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+
+          <div class = "purchase-info">
+            <input type = "number" min = "0" value = "1" >
+            <button type = "button" class = "btn">
+              Add to Cart <i class = "fas fa-shopping-cart"></i>
+            </button>
+            <button type = "button" class = "btn">Compare</button>
+          </div>
+
+          <div class = "social-links">
+            <p>Share At: </p>
+            <a href = "#">
+              <i class = "fab fa-facebook-f"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-twitter"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-instagram"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-whatsapp"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <script src="productPage.js"></script>
+
+     <!--Footer-->
+     <footer id="footer" class="footer-1">
+      <div class="main-footer widgets-dark typo-light">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                       <div class="widget subscribe no-box">
+                          <h5 class="widget-title">Latest News<span></span></h5>
+                          <p>About the up coming product, little discription will goes here.. </p>
+                       </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                       <div class="widget no-box">
+                          <h5 class="widget-title">Quick Links<span></span></h5>
+                          <ul class="thumbnail-widget">
+                              <li>
+                                  <div class="thumb-content"><a href="#">Search</a></div>
+                              </li>
+                              <li>
+                                  <div class="thumb-content"><a href="#">About us</a></div>
+                              </li>
+                              <li>
+                                  <div class="thumb-content"><a href="#">Contact</a></div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                      <div class="widget no-box">
+                          <h5 class="widget-title">Get Started<span></span></h5>
+                          <p>Sign up now to get more information.</p>
+                          <a class="btn" href="signUp.html" target="_blank">Sign Up</a>
+                      </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                      <div class="widget no-box">
+                          <h5 class="widget-title">Follow Us<span></span></h5>
+                          <p><a href="#" title="glorythemes">www.E-Commerce.com</a></p>
+                          <ul class="social-footer2">
+                              <li class=""><a title="youtube" target="_blank" href="#"><img alt="youtube" width="30" height="30" src="assets/icon-youtube.png"></a></li>
+                              <li class=""><a href="#" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="assets/icon-facebook.png"></a></li>
+                              <li class=""><a href="#" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src="assets/icon-twitter.png"></a></li>
+                              <li class=""><a title="instagram" target="_blank" href="#"><img alt="instagram" width="30" height="30" src="assets/icon-instagram.png"></a></li>
+                          </ul>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+        <!--Copy right-->
+      <div class="footer-copyright">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <p>@Copyright SLS 21th Generation</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </footer>
+  </body>
+</html>
