@@ -20,7 +20,7 @@
         <a href="#sticker">sticker</a>
         <a href="#powerbank">Power Bank</a>
         <a href="#external">External Hard Disk</a>
-        <a href="#">Fourth item</a>
+        <a href="#keyboard">Keyboard</a>
     </div>
     <!--  Navbar  -->
 <nav class="navbar navbar-expand-lg">
@@ -46,6 +46,61 @@
         <div class="container">
           <h1 class="display-4">Welcome to Our Website</h1>
           <p class="lead" style = "color:black">Our spcial promotion are here</p>
+          <!--image slider start-->
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="Jumbotron_images/1.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="Jumbotron_images/2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="Jumbotron_images/3.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="Jumbotron_images/4.png" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+        </div>
+    </div>
+    
+    <!--image slider end-->
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 4){
+            counter = 1;
+          }
+        }, 2000);
+        </script>
         </div>
     </div>
     <!--Main Content-->
@@ -232,42 +287,29 @@
                 </div>
             <!-- Fourth row -->
                 <h4 class="mb-4 mt-4 miniCat">
-                    <a href="#">Fourth row</a>
+                    <a href="#" name="keyboard">Keyboard</a>
                 </h4>
                 <div class="row">
                     <div class="col-lg col-md-6 mb-4 productCard">
                         <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/16/700/700" alt=""></a>
+                            <a href="keyboard_GK30.html"><img class="card-img-top" src="keyborad_images/GK30_4.jpeg" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item 13</a>
+                                <a href="keyboard_GK30.html">VIGOR GK30</a>
                                 </h4>
-                                <h5>$24.99</h5>
+                                <h5 style = "color: black">$39.99</h5>
 
                             </div>
                         </div>
                     </div>
                     <div class="col-lg col-md-6 mb-4 productCard">
                         <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/17/700/700" alt=""></a>
+                            <a href="keyboard_apexPro.html"><img class="card-img-top" src="keyborad_images/apexPro1.jpg" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item 14</a>
+                                <a href="keyboard_apexPro.html">Apex Pro</a>
                                 </h4>
-                                <h5>$24.99</h5>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg col-md-6 mb-4 productCard">
-                        <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/18/700/700" alt=""></a>
-                            <div class="text-center">
-                                <h4 >
-                                <a href="#">Item 15</a>
-                                </h4>
-                                <h5>$24.99</h5>
+                                <h5 style = "color: black">$199.99</h5>
 
                             </div>
                         </div>
@@ -275,12 +317,25 @@
 
                     <div class="col-lg col-md-6 mb-4 productCard">
                         <div class="h-100">
-                            <a href="#"><img class="card-img-top" src="https://picsum.photos/seed/19/700/700" alt=""></a>
+                            <a href="keyboard_razer.html"><img class="card-img-top" src="keyborad_images/razer1.jpg" alt=""></a>
                             <div class="text-center">
                                 <h4 >
-                                <a href="#">Item 16</a>
+                                <a href="keyboard_razer.html">Razer Huntsman Elite</a>
                                 </h4>
-                                <h5>$24.99</h5>
+                                <h5 style = "color: black">$199.99</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg col-md-6 mb-4 productCard">
+                        <div class="h-100">
+                            <a href="keyboard_razerCynosa.html"><img class="card-img-top" src="keyborad_images/razer5.jpg" alt=""></a>
+                            <div class="text-center">
+                                <h4 >
+                                <a href="keyboard_razerCynosa.html">Razer Cynosa V2</a>
+                                </h4>
+                                <h5 style = "color: black">$59.99</h5>
 
                             </div>
                         </div>
