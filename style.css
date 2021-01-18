@@ -1,28 +1,140 @@
 /*Header */
 .navbar {
-   background-color: #484848;
- }
+  background-color: #484848;
+  height: 100px;
+}
 .navbar .navbar-nav .nav-link { 
-  color: #fff;
-  font-size: 20px;
-  
- }
+ color: #fff;
+ font-size: 20px;
+ 
+}
 .navbar .navbar-nav .nav-link:hover { 
-  color: #fbc531; 
+ color: #fbc531; 
 }
 .navbar .navbar-nav .active > .nav-link { 
-  color: #fbc531; 
+ color: #fbc531; 
+}
+/*end header */
+/*main contant*/
+/*image slider in jumbotron*/
+
+.jumbotron{
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+}
+/*body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+}
+*/
+.slider{
+  width: 1110px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-footer a.text-light:hover { 
-  color: #fed136!important; 
-  text-decoration: none; 
+.slides{
+  width: 500%;
+  height: 400px;
+  display: flex;
 }
-footer .cizgi { 
-  border-right: 1px solid #535e67;
+
+.slides input{
+  display: none;
 }
-@media (max-width: 992px) { footer .cizgi { border-right: none; } }
-/*end header */
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 1210px;
+  height: 400px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 1110px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 1110px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -238,3 +350,4 @@ ul.social-footer2 li a {
 
 
 }
+
